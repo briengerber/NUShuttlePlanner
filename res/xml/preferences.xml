@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Settings">
+
+        <CheckBoxPreference
+            android:key="AMPMChoice"
+            android:title="Time mode"
+            android:summary="Checked reports in AM/PM. Unchecked reports in 24 hour." 
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="all_day"
+            android:title="Current Time Results"
+            android:summary="Checked results in searches after the current time." 
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="home_screen"
+            android:title="Default Home"
+            android:summary="Checked uses planner as default home. Unchecked uses upcoming." 
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

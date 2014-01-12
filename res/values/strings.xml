@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NU Shuttle Planner</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_select_shuttle">Select an appropriate number of shuttles</string>
+    <string name="txt_cb_all">All Shuttles</string>
+    <string name="txt_cb_ryan_field">Ryan Field</string>
+    <string name="txt_cb_evanston_inter">Evanston Intercampus</string>
+    <string name="txt_cb_chicago_inter">Chicago Intercampus</string>
+    <string name="txt_cb_shop_n_ride">Shop (Sunday)</string>
+    <string name="txt_evanston_loop">Evanston Loop</string>
+    <string name="txt_cb_frostbite_express">Frostbite Express</string>
+    <string name="txt_cb_frostbite_sheridan">Frostbite Sheridan</string>
+    <string name="txt_cb_chicago_express_saturday">Chicago Express (Saturday)</string>
+    <string name="txt_button_select_shuttles">Continue</string>
+    <string name="txt_shuttle_to">To:   </string>
+    <string name="txt_shuttle_from">From:   </string>
+    <string name="txt_shuttle_starting_location">Starts here</string>
+    <string name="txt_shuttle_ending_location">Ends Here</string>
+    <string name="txt_which_shuttle">Shuttle</string>
+    <string name="txt_arriving_time">9:15</string>
+    <string name="txt_departing_time">9:00</string>
+    <string name="txt_from">From: </string>
+    <string name="txt_to">"To: "</string>
+    <string name="txt_time_departing">"Leaves at: "</string>
+    <string name="txt_description_header">Click to see a full schedule. Long press to favorite.</string>
+    <string name="txt_description_favorites_header">Click to see a full schedule. Long press to remove.</string>
+    <string name="txt_leaves_at">"Leaves at: "</string>
+    <string name="txt_arrives_at">"Arrives at: "</string>
+	<string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="txt_campus_loop">Campus Loop</string>
+    <string name="txt_full_schedule_stop">Stop</string>
+    <string name="txt_full_schedule_time">Time</string>
+    <string name="txt_search_button">Search</string>
+    <string name="txt_switch_button">Switch</string>
+    <string name="txt_upcoming_header">Select a Location</string>  
+    
+    <string-array name="drawer_array">
+        <item>Planner</item>
+        <item>Upcoming</item>
+        <item>Favorites</item>
+        <item>Overview</item>
+        <item>Map</item>
+    </string-array>
+    
+    <string-array name="drawer_array_right">
+        <item>Campus Loop</item>        
+        <item>Evanston Intercampus</item>
+        <item>Evanston Loop</item>
+        <item>Ryan Field</item>
+        <item>Chicago Intercampus</item>
+        <item>Frostbite Sheridan</item>
+        <item>Frostbite Express</item>
+        <item>Chicago Express</item>
+        <item>Shop-N-Ride</item>
+    </string-array>
+    
+    <string-array name="locations_array">
+        <item>Best Buy</item>        
+        <item>Central L</item>
+        <item>Central/Jackson</item>
+        <item>Chicago/Davis</item>
+        <item>Chicago/Greenleaf</item>
+        <item>Chicago/Sheridan</item>
+        <item>Chicago/Main</item>
+        <item>Clark/Burger King</item>
+        <item>Columbus/Illinois</item>
+        <item>Columbus/Monroe</item>
+        <item>Columbus/Roosevelt</item>
+        <item>Davis/Oak</item>
+        <item>Davis/Sherman</item>
+        <item>Emerson/Maple</item>
+        <item>Fisk Hall</item>
+        <item>Green Bay/Emerson</item>
+        <item>Green Bay/Noyes</item>
+        <item>Green Bay/Simpson</item>
+        <item>Hinman/Sheridan</item>
+        <item>Jacobs Center</item>
+        <item>Lake/Maple</item>
+        <item>Library/Norris Center</item>
+        <item>Lincolnwood Town Center</item>
+        <item>Maple/Clark</item>
+        <item>Metra/Green Bay/Harrison</item>
+        <item>Noyes/Sherman</item>
+        <item>Orrington/Clark</item>
+        <item>Patten Gym</item>
+        <item>Pearson/Mies Van Der Rohe</item>
+        <item>Ridge/Davis</item>
+        <item>Ridge/Garnett</item>
+        <item>Ridge/Noyes</item>
+        <item>Ridge/Simpson</item>
+        <item>Ryan Field</item>
+        <item>SPAC</item>
+        <item>Sheridan/Foster</item>
+        <item>Sheridan/Lincoln</item>
+        <item>Sheridan/Loyola</item>
+        <item>Sheridan/Noyes</item>
+        <item>Sherman/Clark</item>
+        <item>Sherman/Emerson</item>
+        <item>Sherman/Noyes</item>
+        <item>Sherman/Simpson</item>
+        <item>Target</item>
+        <item>Tech Institute</item>
+        <item>Ward</item>
+        <item>Weber Arch</item>       
+    </string-array>
+    
+     <string-array name="upcoming_array">
+        <item>Select A Location</item>
+        <item>Best Buy</item>        
+        <item>Central L</item>
+        <item>Central/Jackson</item>
+        <item>Chicago/Davis</item>
+        <item>Chicago/Greenleaf</item>
+        <item>Chicago/Sheridan</item>
+        <item>Chicago/Main</item>
+        <item>Clark/Burger King</item>
+        <item>Columbus/Illinois</item>
+        <item>Columbus/Monroe</item>
+        <item>Columbus/Roosevelt</item>
+        <item>Davis/Oak</item>
+        <item>Davis/Sherman</item>
+        <item>Emerson/Maple</item>
+        <item>Fisk Hall</item>
+        <item>Green Bay/Emerson</item>
+        <item>Green Bay/Noyes</item>
+        <item>Green Bay/Simpson</item>
+        <item>Hinman/Sheridan</item>
+        <item>Jacobs Center</item>
+        <item>Lake/Maple</item>
+        <item>Library/Norris Center</item>
+        <item>Lincolnwood Town Center</item>
+        <item>Maple/Clark</item>
+        <item>Metra/Green Bay/Harrison</item>
+        <item>Noyes/Sherman</item>
+        <item>Orrington/Clark</item>
+        <item>Patten Gym</item>
+        <item>Pearson/Mies Van Der Rohe</item>
+        <item>Ridge/Davis</item>
+        <item>Ridge/Garnett</item>
+        <item>Ridge/Noyes</item>
+        <item>Ridge/Simpson</item>
+        <item>Ryan Field</item>
+        <item>SPAC</item>
+        <item>Sheridan/Foster</item>
+        <item>Sheridan/Lincoln</item>
+        <item>Sheridan/Loyola</item>
+        <item>Sheridan/Noyes</item>
+        <item>Sherman/Clark</item>
+        <item>Sherman/Emerson</item>
+        <item>Sherman/Noyes</item>
+        <item>Sherman/Simpson</item>
+        <item>Target</item>
+        <item>Tech Institute</item>
+        <item>Ward</item>
+        <item>Weber Arch</item>       
+    </string-array>
+ 
+</resources>

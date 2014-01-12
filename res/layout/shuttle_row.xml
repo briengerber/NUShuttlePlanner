@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/shuttle_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="Image for each shuttle"
+        android:paddingRight="8dp"
+        android:src="@drawable/ryan_field_image" />
+
+    <TextView
+        android:id="@+id/id_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id_leaves_at"
+        android:layout_below="@+id/id_leaves_at"
+        android:text="@string/txt_shuttle_to"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/ending_shuttle_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/id_to"
+        android:layout_alignBottom="@+id/id_to"
+        android:layout_toRightOf="@+id/id_to"
+        android:paddingLeft="3dp"
+        android:text="@string/txt_shuttle_ending_location"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/id_arrives_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/arriving_time"
+        android:layout_alignBottom="@+id/arriving_time"
+        android:layout_alignLeft="@+id/id_to"
+        android:text="@string/txt_arrives_at"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/id_leaves_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id_from"
+        android:layout_below="@+id/starting_shuttle_location"
+        android:text="@string/txt_leaves_at"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/starting_shuttle_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/which_shuttle"
+        android:layout_toRightOf="@+id/id_from"
+        android:paddingLeft="3dp"
+        android:text="@string/txt_shuttle_starting_location"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/departing_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ending_shuttle_location"
+        android:layout_toRightOf="@+id/id_leaves_at"
+        android:paddingLeft="3dp"
+        android:text="@string/txt_departing_time"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/arriving_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ending_shuttle_location"
+        android:layout_toRightOf="@+id/id_arrives_at"
+        android:paddingLeft="3dp"
+        android:text="@string/txt_arriving_time"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/id_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_leaves_at"
+        android:layout_toRightOf="@+id/shuttle_image"
+        android:text="@string/txt_shuttle_from"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/which_shuttle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shuttle_image"
+        android:layout_toRightOf="@+id/shuttle_image"
+        android:text="@string/txt_which_shuttle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
